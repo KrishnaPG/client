@@ -5,7 +5,7 @@ var disableOpenerForExternalLinks = require('./util/disable-opener-for-external-
 var getApiUrl = require('./get-api-url');
 var serviceConfig = require('./service-config');
 var crossOriginRPC = require('./cross-origin-rpc.js');
-require('../shared/polyfills');
+//require('../shared/polyfills');
 
 var raven;
 

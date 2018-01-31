@@ -25,34 +25,18 @@ It’s used by the [Hypothesis browser extension][ext], and can also be
 Development
 -----------
 
-See the client [Development Guide][developers] for instructions on building,
-testing and contributing to the client.
+To build, 
 
-[developers]: https://h.readthedocs.io/projects/client/en/latest/developers/
+````
+npm run build
 
-Community
----------
+````
 
-Join us on Slack - [request an invite](https://slack.hypothes.is) or [log in once you've already created an account](https://hypothesis-open.slack.com/) - or in [#hypothes.is][irc] on
-[freenode](https://freenode.net/) for discussion.
-
-If you'd like to contribute to the project, you should consider subscribing to
-the [development mailing list][ml], where we can help you plan your
-contributions.
-
-Please note that this project is released with a [Contributor Code of
-Conduct][coc]. By participating in this project you agree to abide by its terms.
-
-[ml]: https://groups.google.com/a/list.hypothes.is/forum/#!forum/dev
-[coc]: https://github.com/hypothesis/client/blob/master/CODE_OF_CONDUCT
-
-License
--------
-
-The Hypothesis client is released under the [2-Clause BSD License][bsd2c],
-sometimes referred to as the "Simplified BSD License". Some third-party
-components are included. They are subject to their own licenses. All of the
-license information can be found in the included [LICENSE][license] file.
-
-[bsd2c]: http://www.opensource.org/licenses/BSD-2-Clause
-[license]: https://github.com/hypothesis/client/blob/master/LICENSE
+To develop / debug, in the root folder run
+````
+gulp watch
+````
+then in the test folder, run any web-server and browse to the `index.html` in that folder. For example
+````
+ws
+````

@@ -61,15 +61,15 @@ function bootHypothesisClient(doc, config) {
 
   injectAssets(doc, config, [
     // Vendor code and polyfills
-    'scripts/polyfills.bundle.js',
-    'scripts/jquery.bundle.js',
+    'scripts\\polyfills.bundle.js',
+    'scripts\\jquery.bundle.js',
 
     // Main entry point for the client
-    'scripts/annotator.bundle.js',
+    'scripts\\annotator.bundle.js',
 
-    'styles/icomoon.css',
-    'styles/annotator.css',
-    'styles/pdfjs-overrides.css',
+    'styles\\icomoon.css',
+    'styles\\annotator.css',
+    'styles\\pdfjs-overrides.css',
   ]);
 }
 
@@ -79,21 +79,21 @@ function bootHypothesisClient(doc, config) {
 function bootSidebarApp(doc, config) {
   injectAssets(doc, config, [
     // Vendor code and polyfills required by app.bundle.js
-    'scripts/raven.bundle.js',
-    'scripts/angular.bundle.js',
-    'scripts/katex.bundle.js',
-    'scripts/showdown.bundle.js',
-    'scripts/polyfills.bundle.js',
-    'scripts/unorm.bundle.js',
+    'scripts\\raven.bundle.js',
+    'scripts\\angular.bundle.js',
+    'scripts\\katex.bundle.js',
+    'scripts\\showdown.bundle.js',
+    'scripts\\polyfills.bundle.js',
+    'scripts\\unorm.bundle.js',
 
     // The sidebar app
-    'scripts/sidebar.bundle.js',
+    'scripts\\sidebar.bundle.js',
 
-    'styles/angular-csp.css',
-    'styles/angular-toastr.css',
-    'styles/icomoon.css',
-    'styles/katex.min.css',
-    'styles/sidebar.css',
+    'styles\\angular-csp.css',
+    'styles\\angular-toastr.css',
+    'styles\\icomoon.css',
+    'styles\\katex.min.css',
+    'styles\\sidebar.css',
   ]);
 }
 
